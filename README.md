@@ -1,73 +1,249 @@
-# Welcome to your Lovable project
+🚀 ForensiX AI – Intelligent Document Fraud Detection Platform
+AI‑Powered Forensic Intelligence for the Digital Era
 
-## Project info
+ForensiX AI is a production‑level AI forensic web application designed to detect whether a document is GENUINE or FORGED using multi‑layer intelligent analysis.
+The system combines metadata forensics, linguistic intelligence, signature verification, and handwriting analysis with Explainable AI (XAI) to provide transparent and reliable results.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+👩‍💻 Team Members
+This project is collaboratively developed by:
 
-## How can I edit this code?
+Cliffe Jose J – AI Analysis & System Design
 
-There are several ways of editing your application.
+Ancy Antony A L – Frontend Development & UI/UX Design
 
-**Use Lovable**
+Apsara S – Backend Development & API Integration
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🎯 Project Vision
+Traditional document verification relies heavily on manual inspection.
+ForensiX AI automates forensic analysis using Artificial Intelligence to:
 
-Changes made via Lovable will be committed automatically to this repo.
+✅ Detect document fraud
+✅ Provide explainable decisions
+✅ Highlight suspicious evidence
+✅ Generate professional forensic reports
+✅ Deliver startup‑level SaaS experience
 
-**Use your preferred IDE**
+🧠 Core Features
+🔎 1. Metadata Forensics
+Creation vs modification timestamp analysis
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Author mismatch detection
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Editing software identification
 
-Follow these steps:
+Suspicious metadata patterns
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Output
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Metadata score
 
-# Step 3: Install the necessary dependencies.
-npm i
+Risk level
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Evidence explanation
+
+🧾 2. Linguistic Pattern Intelligence (NLP)
+Tone shift detection
+
+Vocabulary inconsistency
+
+Paragraph style variance
+
+Semantic similarity analysis
+
+Repetitive phrasing detection
+
+Output
+
+Linguistic fraud score
+
+Suspicious paragraph highlighting
+
+Explainable reasoning
+
+✍ 3. Signature Authenticity Analysis
+Stroke smoothness evaluation
+
+Pixel edge inspection
+
+Copy‑paste artifact detection
+
+Alignment consistency check
+
+Output
+
+Signature similarity score
+
+Highlighted signature region
+
+Authenticity index
+
+🖊 4. Handwriting Pattern Consistency
+Slant angle variation
+
+Letter spacing irregularities
+
+Stroke thickness comparison
+
+Character formation deviation
+
+Output
+
+Handwriting anomaly map
+
+Consistency score
+
+📊 Intelligent Fraud Scoring System
+Weighted analysis model:
+
+Module	Weight
+Metadata Analysis	25%
+Linguistic Analysis	30%
+Signature Analysis	25%
+Handwriting Analysis	20%
+Final Decision Logic
+
+Score > 0.6  → 🔴 FORGED
+Score ≤ 0.6 → 🟢 GENUINE
+Confidence = Score × 100
+
+🧩 Explainable AI (XAI)
+The platform clearly explains:
+
+WHY a document is forged or genuine
+
+Which module contributed most
+
+Evidence-based reasoning
+
+Human‑readable forensic explanation
+
+No random predictions — every result is analysis‑driven.
+
+🎨 User Interface Highlights
+Futuristic Dark Theme
+
+Glassmorphism Design
+
+Neon Blue & Purple Gradients
+
+AI Scanning Animations
+
+Interactive Dashboards
+
+Smooth Micro‑Interactions
+
+Startup‑level SaaS UI
+
+🖥️ Application Pages
+🌐 Landing Page
+Animated hero section
+
+Cybersecurity-style design
+
+AI particle background
+
+📊 AI Analysis Dashboard
+Drag & Drop upload
+
+Real‑time analysis animation
+
+Fraud score visualization
+
+🧠 Explainable AI Panel
+Risk heatmaps
+
+Evidence highlights
+
+Module-wise score cards
+
+📄 Forensic Report Generator
+Downloadable professional PDF report
+
+Confidence percentage
+
+Evidence summary
+
+Final verdict
+
+🏗️ Tech Stack
+Frontend
+React.js
+
+TypeScript
+
+Tailwind CSS
+
+shadcn-ui
+
+Framer Motion
+
+Chart.js / Recharts
+
+Backend
+FastAPI
+
+Async API architecture
+
+Modular services
+
+Database
+PostgreSQL / SQLite
+
+🛡️ Security Features
+Secure file upload validation
+
+Hash-based document ID
+
+File size verification
+
+Audit logging
+
+Simulated blockchain verification ledger
+
+📂 Project Structure
+forensix-ai/
+│
+├── frontend/
+├── backend/
+├── ai_engine/
+├── database/
+├── reports/
+└── utils/
+⚙️ Installation & Setup
+1️⃣ Clone Repository
+git clone <YOUR_GITHUB_REPO_URL>
+cd forensix-ai
+2️⃣ Install Dependencies
+npm install
+3️⃣ Run Development Server
 npm run dev
-```
+🚀 Deployment
+Project can be deployed using:
 
-**Edit a file directly in GitHub**
+Lovable AI publish feature
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Vercel / Netlify (Frontend)
 
-**Use GitHub Codespaces**
+Render / Railway (Backend)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🌟 Future Enhancements
+Real AI model training
 
-## What technologies are used for this project?
+Blockchain verification integration
 
-This project is built with:
+Multi-language document analysis
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Mobile application support
 
-## How can I deploy this project?
+Enterprise forensic dashboard
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+🏆 Project Goal
+To build a future‑ready AI forensic platform that:
 
-## Can I connect a custom domain to my Lovable project?
+✅ Looks like a real startup product
+✅ Solves real-world fraud detection problems
+✅ Demonstrates explainable artificial intelligence
+✅ Impresses hackathon judges & recruiters
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+📜 License
+This project is developed for educational and research purposes.
